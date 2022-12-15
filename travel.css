@@ -1,0 +1,373 @@
+    * {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+header {
+    background-image: url(img/sekil.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.one img {
+    padding-top: 30px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav i {
+    padding-top: 30px;
+}
+
+header nav i {
+    color: #ffff;
+    font-size: 20px;
+}
+
+header h1 {
+    font-size: 52px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Open Sans";
+    text-align: center;
+    margin-top: 270px;
+}
+
+.header1 form input {
+    width: 326px;
+    height: 40px;
+    background-color: #ffffff;
+    border: none;
+}
+
+
+.header1 form input::placeholder {
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #8b8b8b;
+    font-weight: 400;
+    font-family: "Open Sans";
+    padding-left: 7px;
+}
+
+.header1 form button {
+    width: 122px;
+    height: 40px;
+    background-color: #fd4f32;
+    border: none;
+
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Open Sans";
+    text-align: center;
+
+}
+
+.header1 form {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    padding-bottom: 200px;
+}
+
+.messi div h2 {
+    padding-top: 70px;
+    margin-top: 14px;
+}
+
+
+
+
+
+#austrualia {
+    background-color: #eeeeee; padding-top: 70px;
+}
+
+
+.messi div h2 {
+    font-size: 16px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    color: #323232;
+    font-weight: 400;
+    font-family: "Montserrat";
+
+
+}
+
+
+
+.messi div p {
+    font-size: 15px;
+    letter-spacing: 0px;
+    color: #8b8b8b;
+    font-weight: 400;
+    font-family: "Open Sans";
+
+}
+
+.ronaldo {
+    display: flex;
+    padding-bottom: 70px
+}
+
+
+;
+
+.ronaldo div {
+    display: flex;
+    flex-direction: column;
+}
+
+.ronaldo img {
+    margin-top: 40px;
+    width: 240px;
+    object-fit: cover;
+    margin-left: 10px;
+
+
+}
+
+.img_body {
+    background-color: #ffffff;
+    width: 205px;
+    height: 75px;
+    font-size: 13px;
+    line-height: 19px;
+    color: #696969;
+    font-weight: 400;
+    font-family: "Open Sans";
+
+    padding: 20px 0px 20px 20px;
+}
+
+.img_body2 {
+    width: 205px;
+    height: 75px;
+    font-size: 13px;
+    line-height: 19px;
+    color: #696969;
+    font-weight: 400;
+    font-family: "Open Sans";
+    background-color: #ffffff;
+}
+
+.img_body3 {
+    width: 205px;
+    height: 75px;
+    font-size: 13px;
+    line-height: 19px;
+    color: #696969;
+    font-weight: 400;
+    font-family: "Open Sans";
+    background-color: #ffffff;
+}
+
+
+.img_body4 {
+    width: 205px;
+    height: 75px;
+    font-size: 13px;
+    line-height: 19px;
+    color: #696969;
+    font-weight: 400;
+    font-family: "Open Sans";
+    background-color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+#before {
+    background-color: #fff;
+}
+
+#before h1 {
+    font-size: 52px;
+    letter-spacing: 2px;
+    color: #323232;
+    font-weight: 300;
+    font-family: "Open Sans";
+    padding-top: 80px;
+}
+
+
+.before_text {
+    display: flex;
+}
+
+
+.before_text h2 {
+    font-size: 16px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    color: #323232;
+    font-weight: 400;
+    font-family: "Montserrat";
+    padding-top: 70px;
+}
+
+.before_text p {
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 22px;
+    color: #8b8b8b;
+    font-weight: 400;
+    font-family: "Open Sans";
+    padding-top: 20px;
+}
+
+.div1 {
+    margin-left: 70px;
+}
+
+.div2 {
+    margin-left: 70px;
+}
+
+.btn_text {
+    font-size: 16px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    color: #323232;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+
+    padding-top: 80px;
+}
+
+.btn_text form {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+.btn_text form input {
+    width: 327px;
+    padding: 7px;
+    border: none;
+    background-color: #eeeeee;
+}
+
+.btn_text form button {
+    width: 170px;
+    padding: 7px;
+    background-color: #fd4f32;
+    border: none;
+
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Open Sans";
+    text-align: center;
+
+}
+
+.btn_text form input::placeholder {
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #8b8b8b;
+    font-weight: 400;
+    font-family: "Open Sans";
+    padding-left: 10px;
+}
+
+
+
+
+#hi {
+    background-color: #eee;
+}
+
+
+.div_p{
+
+ 
+
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 22px;
+    color: #8b8b8b;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+
+
+
+.divnav{
+    display: flex ;
+    justify-content: space-between;
+
+}
+
+.div_nav{
+    display: flex ;
+    justify-content: space-between;
+align-items: center;
+padding: 30px 0px;
+
+
+
+
+
+
+
+font-size: 14px;
+letter-spacing: 0px;
+text-transform: uppercase;
+color: #323232;
+font-weight: 400;
+font-family: "Montserrat";
+
+}
+
+
+.divnav nav ul li{
+    display: inline;
+ 
+ 
+}
+
+
+
+.divnav nav ul li a{
+    text-decoration: none;
+
+
+    font-size: 14px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    color: #323232;
+    font-weight: 400;
+    font-family: "Montserrat";
+    margin-left: 20px;
+    transition: all 1s;
+}
+
+
+
+.divnav nav ul li a:hover{
+background-color: #014a89;
+padding: 4px;
+
+}
